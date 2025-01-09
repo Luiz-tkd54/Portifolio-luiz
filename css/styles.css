@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* variaveis para gerenciar as cores nos dois temas
+escuro e claro */
 :root{
     --text-color: #FFF;
     --bg-url: url(/assets/bg-desktop.jpg);

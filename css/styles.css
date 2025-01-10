@@ -75,11 +75,17 @@ body *{
     /* alinhamento do posicionamento do botão */
     top: 50%;
     transform: translateY(-50%);
+
+    animation: slide-back .3s forwards  ;
 }
 
 .light #sweet button{
-    right: 0;
-    left: initial;
+    /* forwards = serve para quando finalizar a animação manter as propriedades  */
+    animation: slide-in .3s forwards;
+}
+
+#sweet button:hover{
+    outline: 8px solid var(--highlight-color);
 }
 
 #sweet  span{
@@ -175,6 +181,7 @@ footer{
     text-align: center;
 }
 
+/* responsividade */
 @media (min-width: 770px) {
     :root{
         --bg-url: url(/projeto\ rocketseat/assets/bg-desktop.jpg);
@@ -185,4 +192,26 @@ footer{
 
 
 
+}
+/* animações  */
+
+/* ir para tema branco  */
+@keyframes slide-in{
+    form{
+        left: 0;
+    }
+
+    to{
+        left: 50%;
+    }
+}
+
+/* voltar para tema escuro */
+@keyframes slide-back {
+    from{
+        left: 50%;
+    }
+    to{
+        left: 0;
+    }
 }

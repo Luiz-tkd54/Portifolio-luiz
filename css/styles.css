@@ -8,22 +8,22 @@
 escuro e claro */
 :root{
     --text-color: #FFF;
-    --bg-url: url(/assets/bg-desktop.jpg);
+    --bg-url: url(/projeto\ rocketseat/assets/bg-desktop.jpg);
     --strock-color: #a0a0a0;
     --surface-color: rgba(255, 255, 255, 0.1) ;
     --surface-color-hover: rgba(255, 255, 255, 0.05) ;
     --highlight-color:rgba(255, 255, 255, 0.2);
-    --sweet-bg-url:url(/assets/moon-stars.svg);
+    --sweet-bg-url: url(/projeto\ rocketseat/assets/moon-stars.svg);
 }
 
 .light{
     --text-color: #000;
-    --bg-url: url(/assets/bg-desktop-light.jpg);
+    --bg-url: url(/projeto\ rocketseat/assets/bg-desktop-light.jpg);
     --strock-color: rgba(0 ,0, 0, 0.5);
     --surface-color: rgba(0 ,0, 0, .1);
     --surface-color-hover: rgba(0, 0, 0, 0.02) ;
     --highlight-color: rgba(0, 0, 0, 0.1);
-    --sweet-bg-url:url(/assets/sun.svg);
+    --sweet-bg-url:url(/projeto\ rocketseat/assets/sun.svg);
 }
 
 
